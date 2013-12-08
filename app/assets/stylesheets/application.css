@@ -13,8 +13,13 @@
  */
 
 .BECR_image{
-    height: 325px;
-    width: 637px;
+  height: 325px;
+  width: 637px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.BU_image {
+  
 }
 
 .carousel{
