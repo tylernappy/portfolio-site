@@ -12,6 +12,16 @@
  *= require_tree .
  */
 
+ .contact-info {
+  text-align: right;
+  line-height: 40px;
+ }
+
+ .contact-info-logo {
+  height: 32px;
+  width: 32px;
+ }
+
 .BECR_image{
   height: 325px;
   width: 637px;
@@ -33,8 +43,10 @@
   width: 200px;
 }
 
-.education{
-  font-size: 20px;
+.education {
+  font-size: 200%;
+  text-align: left;
+  line-height: 40px;
 }
 
 .head_shot {
@@ -49,12 +61,12 @@
 }
 
 .mainTitle{
-  text-align: center;
+  text-align: left;
   font-size: 600%;
 }
 
 .catchphrase{
-  text-align: center;
+  text-align: left;
   font-size: 200%;
 }
 

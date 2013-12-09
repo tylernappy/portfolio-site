@@ -1,6 +1,39 @@
-<h1 class="mainTitle">Tyler Nappy</h1></br></br>
-<p class="catchphrase">engineer, visionary, man...</p>
-<%= image_tag("https://s3.amazonaws.com/PORTFOLIO_TYLERNAPPY/131111_SINY_Headshots-1090826.jpg", class: "head_shot") %>
+<div class="row">
+  <div class="span5">
+    <h1 class="mainTitle">Tyler Nappy</h1></br></br>
+    <p class="catchphrase">engineer, visionary, man.</p>
+  </div>
+  <div class="span7">
+    <div class="contact-info">
+      <div>(516) 967-1237  <%= image_tag("https://s3.amazonaws.com/PORTFOLIO_TYLERNAPPY/iphone_logo.png", class: "contact-info-logo") %></div>
+      <div>tylernappy@gmail.com  <%= image_tag("https://s3.amazonaws.com/PORTFOLIO_TYLERNAPPY/gmail_logo.png", class: "contact-info-logo") %></div>
+      <div><a href="www.linkedin.com/in/tylernappy/">LinkedIn  </a><%= image_tag("https://s3.amazonaws.com/PORTFOLIO_TYLERNAPPY/linkedin_logo.png", class: "contact-info-logo") %></div>
+      <div>@tylernappy  <%= image_tag("https://s3.amazonaws.com/PORTFOLIO_TYLERNAPPY/twitter_logo.png", class: "contact-info-logo") %></div>
+    </div>
+  </div>
+</div>
+
+<div class="well">
+  <div class="row">
+    <div class="span12">
+      <h1 class="projectTitle">My Stack</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="span3">
+      
+    </div>
+    <div class="span3">
+
+    </div>
+    <div class="span3">
+
+    </div>
+    <div class="span3">
+
+    </div>
+  </div>
+</div>
 
 
 <!-- Education -->
@@ -18,11 +51,12 @@
   <li style="width:33%;"><a href="#columbia_university" data-toggle="tab"><%= image_tag("https://s3.amazonaws.com/PORTFOLIO_TYLERNAPPY/columbia_logo.jpg", class: "columbia_logo_thumbnail") %></a></li>
   <li style="width:33%;"><a href="#startup_institute" data-toggle="tab"><%= image_tag("https://s3.amazonaws.com/PORTFOLIO_TYLERNAPPY/SINY+logo.png", class: "SI_logo_thumbnail") %></a></li>
 </ul>
+<hr>
 <!-- Tab panes -->
 <div class="tab-content">
   <div class="tab-pane" id="boston_university">
     <div class="row">
-      <div class="span6">
+      <div class="span4">
         <div class="education">
           <div>Aerospace Engineering</div>
           <div>Bachelor of Science</div>
@@ -30,7 +64,7 @@
         </div>
       </div>
       
-      <div class="span6">
+      <div class="span8">
         <script type="text/javascript">
           $('#myTab a').click(function (e) {
             e.preventDefault()
@@ -38,7 +72,7 @@
           })
         </script>
         <!-- Nav tabs -->
-        <ul class="nav nav-tabs nav-justified">
+        <ul class="nav nav-pills nav-justified">
           <li style="width:50%;"><a href="#courses" data-toggle="tab">Courses</a></li>
           <li style="width:50%;"><a href="#relevant_projects" data-toggle="tab">Relevant Projects</a></li>
         </ul>
@@ -46,36 +80,32 @@
         <div class="tab-content">
           <div class="tab-pane" id="courses">
             <div class="row">
-              <div class="span3">
-                <div class="courses">
-                  <div class="btn-group-vertical">                  
-                    <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Electrical_network">Electric Circuit Theory</a></button>
-                    <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Aerospace_engineering">Flight Vehicle Design</a></button>
-                    <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Aerodynamics">Aerodynamics</a></button>
-                    <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Thermodynamics">Thermodynamics</a></button>
-                    <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Strength_of_materials">Flight Structures</a></button>
-                    <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Compressible_flow">Compressible Flow</a></button>
-                    <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Modern_physics">Modern Physics</a></button>
-                  </div>
+              <div class="span4">
+                <div class="courses">                  
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Electrical_network">Electric Circuit Theory</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Aerospace_engineering">Flight Vehicle Design</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Aerodynamics">Aerodynamics</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Thermodynamics">Thermodynamics</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Strength_of_materials">Flight Structures</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Compressible_flow">Compressible Flow</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Modern_physics">Modern Physics</a></button>
                 </div>
               </div>
-              <div class="span3">
-                <div class="btn-group-vertical">
-                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Flight_dynamics_(spacecraft)">Space Vehicle Dynamics</a></button>
-                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Fluid_mechanics">Fluid Mechanics</a></button>
-                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Strength_of_materials">Mechanics of Solids</a></button>
-                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Aircraft_flight_mechanics">Flight Mechanics</a></button>
-                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Control_system">Control Systems</a></button>
-                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Rotating_reference_frame">Advanced Dynamics</a></button>
-                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Instrumentation">Instrumentation</a></button>
-                </div>
+              <div class="span4">
+                <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Flight_dynamics_(spacecraft)">Space Vehicle Dynamics</a></button>
+                <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Fluid_mechanics">Fluid Mechanics</a></button>
+                <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Strength_of_materials">Mechanics of Solids</a></button>
+                <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Aircraft_flight_mechanics">Flight Mechanics</a></button>
+                <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Control_system">Control Systems</a></button>
+                <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Rotating_reference_frame">Advanced Dynamics</a></button>
+                <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Instrumentation">Instrumentation</a></button>
               </div>
             </div>
           </div>
           
           <div class="tab-pane" id="relevant_projects">
             <div class="row">
-              <div class="span6">
+              <div class="span8">
 
                 <script type="text/javascript">
                   $('#myTab a').click(function (e) {
@@ -92,7 +122,7 @@
                 <div class="tab-content">
                   <div class="tab-pane" id="uav_design">
                     <div class="row">
-                      <div class="span6">
+                      <div class="span8">
                         <div class="project-description">
                           <table class="table table-striped">
                             <tr><td>Designed 100 lb. UAV with the mission of both combat and reconnaissance</td><tr>
@@ -108,7 +138,7 @@
                   </div>
                   <div class="tab-pane" id="structural_analysis">
                     <div class="row">
-                      <div class="span6">
+                      <div class="span8">
                         <div class="project-description">
                           <table class="table table-striped">
                             <tr><td>Modeled two geometrically identical wings in ANSYS – one with circular hole for fueling, the other without</td><tr>
@@ -127,25 +157,163 @@
       </div>
     </div> 
   </div>
+
+  <!-- Columbia Tab -->
   <div class="tab-pane" id="columbia_university">
     <div class="row">
-      <div class="span6">
+      <div class="span4">
         <div class="education">
-          <div>Mechatronics</div>
+          <div>Electromechanical Engineering</div>
           <div>Continuing Education</div>
           <div>May 2012</div>
         </div>
       </div>
-    </div>
+      
+      <div class="span8">
+        <script type="text/javascript">
+          $('#myTab a').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+          })
+        </script>
+        <!-- Nav tabs -->
+        <ul class="nav nav-pills nav-justified">
+          <li style="width:50%;"><a href="#courses_columbia" data-toggle="tab">Courses</a></li>
+          <li style="width:50%;"><a href="#relevant_projects_columbia" data-toggle="tab">Relevant Projects</a></li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane" id="courses_columbia">
+            <div class="row">
+              <div class="span4">
+                <div class="courses">               
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Robotics">Robotics</a></button>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="courses">
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Digital_control">Digital Control Systems</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tab-pane" id="relevant_projects_columbia">
+            <div class="row">
+              <div class="span8">
+
+                <script type="text/javascript">
+                  $('#myTab a').click(function (e) {
+                    e.preventDefault()
+                    $(this).tab('show')
+                  })
+                </script>
+                <!-- Nav tabs -->
+                <ul class="nav nav-pills nav-stacked">
+                  <li style="width:100%;"><a href="#surgical_robot_design" data-toggle="tab">Surgical Robot Design</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane" id="surgical_robot_design">
+                    <div class="row">
+                      <div class="span8">
+                        <div class="project-description">
+                          <table class="table table-striped">
+                            <tr><td>Designed robot whose function is to assist surgeons during knee resurfacing surgery</td><tr>
+                            <tr><td>Selected appropriate degrees of freedom for given requirements and constraints</td><tr>
+                            <tr><td>Chose Denavit–Hartenberg parameters for selected degrees of freedom</td><tr>
+                            <tr><td>Calculated kinematic equations, dynamics equations, force propagation and torque propagation</td><tr>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div> 
   </div>
+  <!-- Startup Institute -->
   <div class="tab-pane" id="startup_institute">
     <div class="row">
-      <div class="span6">
-        <div>Web Development Track</div>
-        <div>8 Week Career Accelerator</div>
-        <div>December 2013</div>
+      <div class="span4">
+        <div class="education">
+          <div>Web Development</div>
+          <div>Career Accelerator</div>
+          <div>December 2013</div>
+        </div>
       </div>
-    </div>
+      
+      <div class="span8">
+        <script type="text/javascript">
+          $('#myTab a').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+          })
+        </script>
+        <!-- Nav tabs -->
+        <ul class="nav nav-pills nav-justified">
+          <li style="width:50%;"><a href="#courses_startup_institute" data-toggle="tab">Courses</a></li>
+          <li style="width:50%;"><a href="#relevant_projects_startup_institute" data-toggle="tab">Relevant Projects</a></li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane" id="courses_startup_institute">
+            <div class="row">
+              <div class="span4">
+                <div class="courses">               
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Robotics">Ruby on Rails</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Robotics">HTML</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Robotics">CSS</a></button>
+                </div>
+              </div>
+              <div class="span4">
+                <div class="courses">
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Digital_control">JavaScript</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Digital_control">Amazon Web Services</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Digital_control">Node.js</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tab-pane" id="relevant_projects_startup_institute">
+            <div class="row">
+              <div class="span8">
+
+                <script type="text/javascript">
+                  $('#myTab a').click(function (e) {
+                    e.preventDefault()
+                    $(this).tab('show')
+                  })
+                </script>
+                <!-- Nav tabs -->
+                <ul class="nav nav-pills nav-stacked">
+                  <li style="width:100%;"><a href="#open_table_clone" data-toggle="tab">Open Table Clone</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane" id="open_table_clone">
+                    <div class="row">
+                      <div class="span8">
+                        <div class="project-description">
+                          <table class="table table-striped">
+                            <tr><td>See below for more details</td><tr>
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+    </div> 
   </div>
 </div>
 </div>
