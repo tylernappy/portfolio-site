@@ -19,7 +19,13 @@
 }
 
 .BU_image {
-  
+
+}
+
+.head_shot {
+  width: 325px;
+  height: 637px;
+  border-radius: 40px 40px 40px 40px;
 }
 
 .carousel{

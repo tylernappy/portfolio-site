@@ -1,5 +1,6 @@
-<h1 class="mainTitle">Tyler John Nappy</h1></br></br>
+<h1 class="mainTitle">Tyler Nappy</h1></br></br>
 <p class="catchphrase">engineer, visionary, man...</p>
+<%= image_tag("https://s3.amazonaws.com/PORTFOLIO_TYLERNAPPY/131111_SINY_Headshots-1090826.jpg", class: "head_shot") %>
 
 <h1 class="projectTitle">Education</h2>
 <script type="text/javascript">
@@ -9,7 +10,7 @@
   })
 </script>
 <!-- Nav tabs -->
-<ul class="nav nav-tabs">
+<ul class="nav nav-pills nav-justified">
   <li style="width:33%;"><a href="#boston_university" data-toggle="tab">Boston University</a></li>
   <li style="width:33%;"><a href="#columbia_university" data-toggle="tab">Columbia University</a></li>
   <li style="width:33%;"><a href="#startup_institute" data-toggle="tab">Startup Institute</a></li>
@@ -35,7 +36,7 @@
           })
         </script>
         <!-- Nav tabs -->
-        <ul class="nav nav-tabs">
+        <ul class="nav nav-pills nav-justified">
           <li style="width:50%;"><a href="#courses" data-toggle="tab">Courses</a></li>
           <li style="width:50%;"><a href="#relevant_projects" data-toggle="tab">Relevant Projects</a></li>
         </ul>
@@ -44,37 +45,76 @@
           <div class="tab-pane" id="courses">
             <div class="row">
               <div class="span3">
-                <ul>
-                  <li>Electric Circuit Theory</li>
-                  <li>Flight Vehicle Design</li>
-                  <li>Aerodynamics</li>
-                  <li>Thermodyanmics</li>
-                  <li>Flight Structures</li>
-                  <li>Propulsion</li>
-                  <li>Compressible Flow</li>
-                </ul>
+                <div class="btn-group-vertical">
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Electrical_network">Electric Circuit Theory</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Aerospace_engineering">Flight Vehicle Design</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Aerodynamics">Aerodynamics</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Thermodynamics">Thermodynamics</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Strength_of_materials">Flight Structures</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Compressible_flow">Compressible Flow</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Modern_physics">Modern Physics</a></button>
+                </div>
               </div>
               <div class="span3">
-                <ul>
-                  <li>Space Vehicle Dynamics</li>
-                  <li>Fluid Mechanics</li>
-                  <li>Mechanics of Solids</li>
-                  <li>Flight Mechanics</li>
-                  <li>Control Systems</li>
-                  <li>Advanced Dynamics</li>
-                  <li>Instrumentation</li>
-                </ul>
+                <div class="btn-group-vertical">
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Flight_dynamics_(spacecraft)">Space Vehicle Dynamics</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Fluid_mechanics">Fluid Mechanics</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Strength_of_materials">Mechanics of Solids</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Aircraft_flight_mechanics">Flight Mechanics</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Control_system">Control Systems</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Rotating_reference_frame">Advanced Dynamics</a></button>
+                  <button type="button" class="btn btn-default btn-block"><a target="_blank" href="http://en.wikipedia.org/wiki/Instrumentation">Instrumentation</a></button>
+                </div>
               </div>
             </div>
           </div>
+          
           <div class="tab-pane" id="relevant_projects">
- 
-                All my relevant projects
- 
+            <div class="row">
+              <div class="span6">
+
+                <script type="text/javascript">
+                  $('#myTab a').click(function (e) {
+                    e.preventDefault()
+                    $(this).tab('show')
+                  })
+                </script>
+                <!-- Nav tabs -->
+                <ul class="nav nav-pills nav-justified">
+                  <li style="width:100%;"><a href="#uav_design" data-toggle="tab">UAV Design</a></li>
+                  <li style="width:100%;"><a href="#structural_analysis" data-toggle="tab">Structural Analysis</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane" id="uav_design">
+                    <div class="row">
+                      <div class="span6">
+                        <ul>
+                          <li>Selected optimal propulsion method, two-stroke engine, for given requirements and constraints</li>
+                          <li>Designed propeller geometry and calculated the engine’s RPM required to maintain particular aircraft speeds</li>
+                          <li>Performed detailed analysis for aircraft’s rocket assisted takeoff to meet FAA requirements</li>
+                          <li>Calculated operating envelope and performed a minimum time to climb analysis</li>
+                          <li>Showcased progress as individual in relation to team’s overall design in weekly meetings with professors and in presentation to peers</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="structural_analysis">
+                    <div class="row">
+                      <div class="span6">
+                        <ul>
+                          <li>Modeled two geometrically identical wings in ANSYS – one with circular hole for fueling, the other without</li>
+                          <li>Performed FEA; wrote MATLAB script to compute stresses, stains, shear force, bending moment, and tip deflection as a function of wing span due to lift and drag</li>
+                          <li>Compared and contrasted results for both wings</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> 
           </div>
         </div>
-
-
       </div>
     </div> 
   </div>
