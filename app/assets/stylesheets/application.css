@@ -18,8 +18,19 @@
   border-radius: 20px 20px 20px 20px;
 }
 
-.BU_image {
+.BU_logo_thumbnail {
+  height: 100px;
+  width: 200px;
+}
 
+.columbia_logo_thumbnail {
+  height: 100px;
+  width: 112px;
+}
+
+.SI_logo_thumbnail {
+  height: 100px;
+  width: 200px;
 }
 
 .education{
@@ -45,4 +56,24 @@
 .catchphrase{
   text-align: center;
   font-size: 200%;
+}
+
+.project-description {
+
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+     font-size: 200%;
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.courses {
+  text-align: center;
 }
