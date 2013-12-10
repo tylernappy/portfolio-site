@@ -28,6 +28,12 @@
   border-radius: 20px 20px 20px 20px;
 }
 
+.gps-photo{
+  height: 270;
+  width: 251;
+  border-radius: 20px 20px 20px 20px;
+}
+
 .BU_logo_thumbnail {
   height: 100px;
   width: 200px;
@@ -43,10 +49,16 @@
   width: 200px;
 }
 
+.github_logo {
+  height: 100px;
+  width: 100px;
+}
+
 .education {
-  font-size: 200%;
-  text-align: left;
+  font-size: 100%;
+  text-align: center;
   line-height: 40px;
+  font-weight: bold;
 }
 
 .head_shot {
@@ -87,5 +99,13 @@
 }
 
 .courses {
+  text-align: center;
+}
+
+#margintop {
+  margin-top: 20px;
+}
+
+.project-button {
   text-align: center;
 }
