@@ -109,3 +109,11 @@
 .project-button {
   text-align: center;
 }
+
+.projectTitle {
+  font-size: 25px;
+}
+
+#colored {
+  background-color: #ffffff
+}
