@@ -1,0 +1,116 @@
+<head>
+  <% javascript_include_tag "application" %>
+</head>
+
+<nav id="navigation">
+  <ul id="topnav">
+   <li class="current"><a href="#top">Top</a></li>
+   <li><a href="#experience">Experience</a></li>
+   <li><a href="#projects">Projects</a></li>
+   <li><a href="#education">Education</a></li>
+  </ul>
+</nav>
+
+<div id="content">
+
+  <!-- Top -->
+  <section id="top">
+    <div class="wrapper">
+      
+      <div class="row">  
+        <div id="myname">
+          <div class="span5 offset3">
+            <div id="tyler">Tyler</div>
+          </div>
+          <div class="span4">
+            <div id="nappy">Nappy</div>
+          </div>  
+        </div>
+      </div>
+
+      </br>
+      </br>
+      </br>
+      </br>
+      </br>
+
+      <div class="row">  
+        <div class="span5 offset3">
+          <div id="software-engineer">Software Engineer</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <div class="wrapper">
+       <!--<img src="{{ 'HH_Logo_Mark.jpg' | asset_url }}"> -->
+       <h1>Pane 2</h1>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrapper">
+       <!--<img src="{{ 'HH_Logo_Mark.jpg' | asset_url }}"> -->
+       <h1>Pane 3</h1>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="wrapper">
+       <!--<img src="{{ 'HH_Logo_Mark.jpg' | asset_url }}"> -->
+       <h1>Pane 4</h1>
+    </div>
+  </section>
+
+  <section id="bottom">
+    <div class="wrapper">
+       <!--<img src="{{ 'HH_Logo_Mark.jpg' | asset_url }}"> -->
+       <h1>Pane 5</h1>
+    </div>
+  </section>
+
+</div>
+
+<!-- put script at end for it to go faster -->
+
+<!-- for scrolling nav bar -->
+<script type="text/javascript">
+  $('#navigation').onePageNav({
+    currentClass: 'current',
+    changeHash: false,
+    scrollSpeed: 750,
+    scrollOffset: 30,
+    scrollThreshold: 0.5,
+    filter: '',
+    easing: 'swing',
+    begin: function() {
+        //I get fired when the animation is starting
+    },
+    end: function() {
+        //I get fired when the animation is ending
+    },
+    scrollChange: function($currentListItem) {
+        //I get fired when you enter a section and I pass the list item of the section
+    }
+  });
+</script>
+<script type="text/javascript">
+  $(function(){  // $(document).ready shorthand
+    $('#tyler').hide().delay(1000).fadeIn(2000);
+    $('#nappy').hide().delay(2500).fadeIn(2000);
+    $('#software-engineer').hide().delay(4500).fadeIn(2000);      
+    $('#topnav').hide().delay(6500).fadeIn(2000);
+  });
+</script>
+
+<script type="text/javascript">
+  vpw = $(window).width();
+  vph = $(window).height();
+  $('#top').height(vph);
+  $('#experience').height(vph);
+  $('#projects').height(vph);
+  $('#education').height(vph);
+</script>
