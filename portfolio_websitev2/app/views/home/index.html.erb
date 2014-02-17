@@ -200,7 +200,10 @@
 
             <div class="span4">
               <p>
-                Ruby on Rails application used as a platform for checking in building guests. The software uniquely connects building conceierge and guests coming into the building. Users can see where and when their meetings are and have visual representation available via Google Maps API. A work in progress.
+                Ruby on Rails application used as a platform for checking in building guests, uniquely connecting building conceierge and guests. Users can see where and when their meetings are and have visual representations via Google Maps.
+              </p>
+              <p>
+                A work in progress.
               </p>
             </div>
 
@@ -242,7 +245,7 @@
 
             <div class="span4">
               <p>
-                Mock Venmo Application written in Ruby and run from your terminal. Download it from the left where it from GitHub and play around with it. Requires Ruby 2.0.0.
+                Mock Venmo application written in Ruby and run from your terminal. Download it from GitHub and play around with it. Requires Ruby 2.0.0.
               </p>
             </div>
 
@@ -406,19 +409,104 @@
       
       </div>
 
-
-
-
-
-
-
     </div>
   </section>
 
   <section id="contact">
     <div class="wrapper">
-       <!--<img src="{{ 'HH_Logo_Mark.jpg' | asset_url }}"> -->
-       <h1>Pane 5</h1>
+
+      <div class="row">
+        <div class="span5 offset3">
+          <h1>Contact</h1>
+        </div>
+      </div>
+
+      </br>
+
+      <!-- Phone -->
+      <div class="row">
+        <div class="span12">
+          <div class="row">
+
+            <div class="span5 offset3">
+              
+              <div class="row">
+                <div class="span5">
+                  <h2>
+                    <div>Phone</div>
+                  </h2>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="span5">
+                  <h2>
+                    <div>Email</div>
+                  </h2>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="span5">
+                  <h2>
+                    <div>LinkedIn</div>
+                  </h2>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="span5">
+                  <h2>
+                    <div>Twitter</div>
+                  </h2>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="span5">
+                  <h2>
+                    <div>GitHub</div>
+                  </h2>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="span4">
+              <h2>
+                <div id="phone">(516) 967-1237</div>
+              </h2>
+            </div>
+
+            <div class="span4">
+              <h2>
+                <div><a href="mailTo:tylernappy@gmail.com" id="contact-info">tylernappy@gmail.com</a></div>
+              </h2>
+            </div>
+
+            <div class="span4">
+              <h2>
+                <div><a target="_blank" href="http://www.linkedin.com/in/tylernappy" id="contact-info">tylernappy</a></div>
+              </h2>
+            </div>
+
+            <div class="span4">
+              <h2>
+                <div><a target="_blank" href="https://twitter.com/tylernappy" id="contact-info">@tylernappy</a></div>
+              </h2>
+            </div>
+
+            <div class="span4">
+              <h2>
+                <div><a target="_blank" href="https://github.com/tylernappy" id="contact-info">tylernappy</a></div>
+              </h2>
+            </div>
+
+          </div>
+        </div>
+      
+      </div>
+
     </div>
   </section>
 
@@ -466,6 +554,10 @@
     $('#nappy').hide().delay(2500).fadeIn(2000);
     $('#software-engineer').hide().delay(4500).fadeIn(2000);      
     $('#topnav').hide().delay(6500).fadeIn(2000);
+    $('#experience').hide().delay(6500).fadeIn(2000);
+    $('#projects').hide().delay(6500).fadeIn(2000);
+    $('#education').hide().delay(6500).fadeIn(2000);
+    $('#contact').hide().delay(6500).fadeIn(2000);
   });
 </script>
 
@@ -473,7 +565,7 @@
   vpw = $(window).width();
   vph = $(window).height();
   $('#top').height(vph);
-  $('#experience').height(vph+100);
+  $('#experience').height(vph+180);
   $('#projects').height(vph+350);
   $('#education').height(vph);
   $('#contact').height(vph);
