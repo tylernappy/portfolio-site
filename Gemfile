@@ -22,8 +22,6 @@ gem 'better_errors', :groups => [:development]
 gem "binding_of_caller"
 gem 'fog'
 gem 'json'
-gem 'nokogiri'
-gem 'shopify_app'
 
 group :production do 
   gem 'pg'
