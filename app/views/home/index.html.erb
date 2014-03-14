@@ -780,10 +780,21 @@
 <script type="text/javascript">
   vpw = $(window).width();
   vph = $(window).height();
-  $('#top').height(vph);
-  $('#experience').height(vph+180);
-  $('#projects').height(vph+650);
-  $('#education').height(vph);
-  $('#stack').height(vph);
-  $('#contact').height(vph);
+  var windowHeightThreshold = 700;
+  if (vph > windowHeightThreshold) {
+    $('#top').height(vph);
+    $('#experience').height(vph+180);
+    $('#projects').height(vph+650);
+    $('#education').height(vph);
+    $('#stack').height(vph);
+    $('#contact').height(vph);
+  }
+  else {
+    $('#top').height(windowHeightThreshold);
+    $('#experience').height(windowHeightThreshold+180);
+    $('#projects').height(windowHeightThreshold+650);
+    $('#education').height(windowHeightThreshold);
+    $('#stack').height(windowHeightThreshold);
+    $('#contact').height(windowHeightThreshold);
+  }
 </script>
