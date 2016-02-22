@@ -103,9 +103,9 @@ p {
   padding-top: 100px;
 }
 
-#contact-info {
+/*#contact-info {
   color: #19A9DB;
-}
+}*/
 
 #contact-info:hover {
   color: #FFFFFF;
@@ -116,7 +116,9 @@ p {
 }
 
 a {
-   color: #19A9DB;
+   /*color: #19A9DB;*/
+  /*color: #E9442C;*/
+  color: #00C4BA;
 }
 
 a:hover {
@@ -134,7 +136,7 @@ a:hover {
 
 body {
   background-color: #E9442C;
-  // background-color: #19A9DB;
+  /*background-color: #19A9DB;*/
   /*background-color: #2F69C6;*/
   /*background-color: #00C4BA; */
 }
